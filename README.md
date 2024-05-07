@@ -4,5 +4,8 @@
 brew install python
 pip install --user pipenv
 pipenv install
-pipenv run python ultraquick/pandas-tutorial.py
+pipenv shell
+
+# from then on…
+python ultraquick/pandas-tutorial.py
 ```
